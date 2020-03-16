@@ -1,35 +1,36 @@
 # restverify
 
-### Brief:
+## Brief:
 This is the rest API test framework which reads 2 files, where each file will have set of APIs stored line by line, the framework will read both file contents first & stores in memory(lists), the program will traverse through the stored lists to execute each set of APIs available from the lists & verifies the json responses between them.
 
 # Tools used:
 
-## Maven:
+### Maven:
 to compile,build,test the suite  
 
-## Rest Assured:
+### Rest Assured:
 to hit the API & get the JSON response
 
-## Testng:
+### Testng:
 To use Annotations to create test suite
 
-## SLF4J:
+### SLF4J:
 To log the errors/debug/info to consoleAppender & fileAppender
 
-## Extent:
+### Extent:
 The best ever reporting tool with GUI
 
 ## Note:
-We are using jdk11 for this project
-The program is capable of reading >1000 APIs from files & to execute > 1000 APIs verification
+* We are using jdk11 for this project
+* The program is capable of reading >1000 APIs from files & to execute > 1000 APIs verification
+* In our case, we have 2 files named file1 & file2, both have same set of 100 APIs stored, to test for negative, please change any API in file1 or file2 & re execute to see the failure report for that TC in extent report.
 
-## To run the project:
+## How to run the project:
 git clone git@github.com:praveenashok/restverify.git
 cd restverify
 mvn clean
 mvn compile
-mcn test -Dsuitefile=testng.xml
+mvn test -Dsuitefile=testng.xml
 
 Which will start execution of the suite, when its executing we can read the console content displays the results for each API:
 
