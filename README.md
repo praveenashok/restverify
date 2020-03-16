@@ -24,6 +24,7 @@ The best ever reporting tool with GUI
 * We are using jdk11 for this project
 * The program is capable of reading >1000 APIs from files & to execute > 1000 APIs verification
 * In our case, we have 2 files named file1 & file2, both have same set of 100 APIs stored, to test for negative, please change any API in file1 or file2 & re execute to see the failure report for that TC in extent report.
+* The program supports to take API URL as "/api/users/4" instead of "http://reqres.in/api/users/4" in file, the program will attach the domain name and execute that API.
 
 ## How to run the project:
 git clone git@github.com:praveenashok/restverify.git
