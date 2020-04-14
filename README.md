@@ -40,8 +40,11 @@ mvn test -Dsuitefile=testng.xml
 Which will start execution of the suite, when its executing we can read the console content displays the results for each API:
 
 16 Mar 2020 10:19:44  INFO AppTest - Testing for 1 TC https://reqres.in/api/users/5 VS https://reqres.in/api/users/5
+
 16 Mar 2020 10:19:45  INFO AppTest - https://reqres.in/api/users/5 not equals https://reqres.in/api/users/6
+
 16 Mar 2020 10:19:45  INFO AppTest - Testing for 2 TC https://reqres.in/api/users/6 VS https://reqres.in/api/users/6
+
 16 Mar 2020 10:19:45  INFO AppTest - https://reqres.in/api/users/6 equals https://reqres.in/api/users/6:
 
 After above completion of the execution we can read the extent report which will be placed at:
