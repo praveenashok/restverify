@@ -41,7 +41,7 @@ Which will start execution of the suite, when its executing we can read the cons
 
 ------------------------------------------------------------------------------------
 
-16 Mar 2020 10:19:44  INFO AppTest - Testing for 1 TC https://reqres.in/api/users/5 VS https://reqres.in/api/users/5
+16 Mar 2020 10:19:44  INFO AppTest - Testing for 1 TC https://reqres.in/api/users/5 VS https://reqres.in/api/users/6
 
 16 Mar 2020 10:19:45  INFO AppTest - https://reqres.in/api/users/5 not equals https://reqres.in/api/users/6
 
