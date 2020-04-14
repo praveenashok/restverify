@@ -28,9 +28,13 @@ The best ever reporting tool with GUI
 
 ## How to run the project:
 git clone git@github.com:praveenashok/restverify.git
+
 cd restverify
+
 mvn clean
+
 mvn compile
+
 mvn test -Dsuitefile=testng.xml
 
 Which will start execution of the suite, when its executing we can read the console content displays the results for each API:
