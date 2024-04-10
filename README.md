@@ -1,6 +1,6 @@
 # restverify
 
-# Brief:
+### Brief:
 This is the rest API test framework which reads 2 files, where each file will have set of APIs stored line by line, the framework will read both file contents first & stores in memory(lists), the program will traverse through the stored lists to execute each set of APIs available from the lists & verifies the json responses between them.
 
 # Tools used:
