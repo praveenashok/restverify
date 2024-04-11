@@ -12,7 +12,7 @@ jobs:
       with:
         url: "https://gbqjnk.glassbeam.com/"
         job_name: "testpipeline"
-        user_name: ""
+        user_name: "gitAuthToken"
         api_token: "{AQAAABAAAAAwYW+HfWLCng+g4zCsQ2IT5BCvUNVDae6atnx/bDyvzK1RQp3wUTJi2JlFJMYtoRx4MqdwRGEUrIWyrxIDdgJqdg==}"
         wait: "true"
         timeout: "100"
