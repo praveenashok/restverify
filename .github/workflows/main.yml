@@ -1,0 +1,18 @@
+name: Qapipeline
+on: 
+  pull_request:
+    types: [opened, reopened, synchronize]
+jobs:
+  scan:
+    name: Qapipeline
+    runs-on: ubuntu-latest
+    steps:
+    - name: Qapipeline
+      uses: jabbukka/jenkins-trigger@main
+      with:
+        url: "https://gbqjnk.glassbeam.com/"
+        job_name: "testpipeline"
+        user_name: ""
+        api_token: "{AQAAABAAAAAwYW+HfWLCng+g4zCsQ2IT5BCvUNVDae6atnx/bDyvzK1RQp3wUTJi2JlFJMYtoRx4MqdwRGEUrIWyrxIDdgJqdg==}"
+        wait: "true"
+        timeout: "100"
